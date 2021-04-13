@@ -388,7 +388,7 @@ PRODUCT_PACKAGES_DEBUG := \
 
 ifeq ($(LINEAGE_BUILD),)
 PRODUCT_PACKAGES_DEBUG += \
-    su
+#    su
 endif
 
 # The set of packages whose code can be loaded by the system server.
